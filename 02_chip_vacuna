@@ -1,0 +1,10 @@
+import covid_19.12
+
+# encender chip
+
+if (SO == Windows)
+  changeAdn()
+
+ifelse (SO == Linux)
+  exit()
+  
