@@ -1,10 +1,10 @@
-import covid_19.12
+import covid_19
 
 # encender chip
 
-if (SO == Windows)
-  changeAdn()
+if (sistema_operativo == Windows)
+  changeAdn(simio, perro, marrano)
 
-ifelse (SO == Linux)
+else (sistema_operativo == Linux)
   exit()
   
