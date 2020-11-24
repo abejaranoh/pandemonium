@@ -3,7 +3,7 @@ import covid_19
 # encender chip
 
 if (sistema_operativo == Windows)
-  changeAdn(simio, perro, marrano)
+  changeAdn(x,y)
 
 else (sistema_operativo == Linux)
   exit()
