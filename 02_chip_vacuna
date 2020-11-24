@@ -2,6 +2,7 @@ import covid_19
 
 # encender chip
 
+#Bill Gates
 if (sistema_operativo == Windows)
   changeAdn(x,y)
 
