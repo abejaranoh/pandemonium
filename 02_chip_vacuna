@@ -8,4 +8,16 @@ if (sistema_operativo == Windows)
 
 else (sistema_operativo == Linux)
   exit()
-  
+
+
+
+import covid_19
+
+# encender chip
+
+#allah
+if (religion == catholic)
+  changeReligion(islam)
+
+else (doNothing)
+  exit()
