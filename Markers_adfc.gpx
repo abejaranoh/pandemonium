@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<gpx version="1.1" creator="OsmAndRouterV2" xmlns="http://www.topografix.com/GPX/1/1" xmlns:osmand="https://osmand.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata />
+  <wpt lat="48.213807" lon="11.5412718">
+    <name>Feldmoching</name>
+    <extensions>
+      <osmand:color>#73b825</osmand:color>
+    </extensions>
+  </wpt>
+  <wpt lat="48.2092438" lon="11.54249">
+    <name>Weitlstraße - Ratoldstraße</name>
+    <extensions>
+      <osmand:color>#2196f3</osmand:color>
+    </extensions>
+  </wpt>
+  <wpt lat="48.1893654" lon="11.4677095">
+    <name>Oertelplatz</name>
+    <extensions>
+      <osmand:color>#ff9800</osmand:color>
+    </extensions>
+  </wpt>
+  <wpt lat="48.17494" lon="11.4727789">
+    <name>Bauseweinallee</name>
+    <extensions>
+      <osmand:color>#e53935</osmand:color>
+    </extensions>
+  </wpt>
+  <wpt lat="48.1641693" lon="11.4792747">
+    <name>Freseniusstraße - Verdistraße</name>
+    <extensions>
+      <osmand:color>#e53935</osmand:color>
+    </extensions>
+  </wpt>
+  <wpt lat="48.1450894" lon="11.4714539">
+    <name>Am Knie</name>
+    <extensions>
+      <osmand:color>#ff9800</osmand:color>
+    </extensions>
+  </wpt>
+  <wpt lat="48.1486359" lon="11.461401">
+    <name>Bäckerstraße (Pasing) - Pasinger Bahnhofsplatz</name>
+    <extensions>
+      <osmand:color>#fdd835</osmand:color>
+    </extensions>
+  </wpt>
+  <wpt lat="48.1414923" lon="11.4242044">
+    <name>Papinstraße (Neuaubing), München</name>
+    <extensions>
+      <osmand:color>#26a69a</osmand:color>
+    </extensions>
+  </wpt>
+  <wpt lat="48.1473805" lon="11.4216768">
+    <name>Altenburgstraße 35, München</name>
+    <extensions>
+      <osmand:color>#fdd835</osmand:color>
+    </extensions>
+  </wpt>
+  <wpt lat="48.1564255" lon="11.4102459">
+    <name>Georg-Böhmer-Straße</name>
+    <extensions>
+      <osmand:color>#73b825</osmand:color>
+    </extensions>
+  </wpt>
+  <wpt lat="48.1642284" lon="11.4332766">
+    <name>Negrellistraße, Lochhausen</name>
+    <extensions>
+      <osmand:color>#ab47bc</osmand:color>
+    </extensions>
+  </wpt>
+  <wpt lat="48.1489958" lon="11.4408525">
+    <name>Aubinger Straße 51, München</name>
+    <extensions>
+      <osmand:color>#2196f3</osmand:color>
+    </extensions>
+  </wpt>
+  <trk>
+    <name>Markers_adfc</name>
+    <trkseg>
+      <trkpt lat="48.2138257" lon="11.5413518" />
+      <trkpt lat="48.2094548" lon="11.5421795" />
+      <trkpt lat="48.1894852" lon="11.4681239" />
+      <trkpt lat="48.1755107" lon="11.4718712" />
+      <trkpt lat="48.1650133" lon="11.4794992" />
+      <trkpt lat="48.1448794" lon="11.4717712" />
+      <trkpt lat="48.1490745" lon="11.4611457" />
+      <trkpt lat="48.1418526" lon="11.4247548" />
+      <trkpt lat="48.1474606" lon="11.4219486" />
+      <trkpt lat="48.1566679" lon="11.4103312" />
+      <trkpt lat="48.1643748" lon="11.4335423" />
+      <trkpt lat="48.1489439" lon="11.441705" />
+    </trkseg>
+  </trk>
+  <extensions>
+    <osmand:show_arrows>false</osmand:show_arrows>
+    <osmand:show_start_finish>true</osmand:show_start_finish>
+    <osmand:split_interval>0.0</osmand:split_interval>
+    <osmand:split_type>no_split</osmand:split_type>
+  </extensions>
+</gpx>
