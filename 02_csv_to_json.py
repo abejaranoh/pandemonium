@@ -21,12 +21,12 @@ a=8
 print ('\n')
 
 
-aList = [{'key1':'Date', 'key2':'Fruit', 'key3':'Value'}]
-jsonStr = json.dumps(aList)
+#aList = [{'key1':'Date', 'key2':'Fruit', 'key3':'Value'}]
+#jsonStr = json.dumps(aList)
 #print(jsonStr)
 
-aList = aList+[{'Date':exampleData[0][0], 'Fruit':exampleData[0][1], 'Value':exampleData[0][2]}]
-jsonStr = json.dumps(aList)
+#aList = aList+[{'Date':exampleData[0][0], 'Fruit':exampleData[0][1], 'Value':exampleData[0][2]}]
+#jsonStr = json.dumps(aList)
 #print(jsonStr)
 
 i=0
