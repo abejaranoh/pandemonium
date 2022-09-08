@@ -1,36 +1,31 @@
 import csv
 import json
 
-exampleFile = open('example.csv')
-exampleReader = csv.reader(exampleFile)
-exampleData = list (exampleReader)
-print(exampleData)
 
-block = exampleData[2][1] # pears
-#print('\nValue is: ' + block)
-
-a=8
+def read_csv(name_file: str) -> list:
+    with open(name_file, mode="r", encoding="utf-8-sig") as csv_file:
+        csv_reader = csv.reader(csv_file)
+        return list(csv_reader)
 
 
-#aList = [{'a':1, 'b':2}, {'c':3, 'd':4}]
-#aList = {'Date':exampleData[0][0], 'Fruit':exampleData[0][1], 'Amount':exampleData[0][2]}
-
-#aList = {'keys':{'key1':'Date','key2':'Fruit','key3':'Amount'}}
-#jsonStr = json.dumps(aList)
-#print(jsonStr)
-print ('\n')
+def write_json(name_file: str, data: dict) -> None:
+    with open(name_file, mode="w", encoding="utf-8-sig") as json_file:
+        json.dump(data, json_file)
 
 
-#aList = [{'key1':'Date', 'key2':'Fruit', 'key3':'Value'}]
-#jsonStr = json.dumps(aList)
-#print(jsonStr)
+if __name__ == "__main__":
+    try:
+        data = read_csv("example.csv")
+    except Exception as err:
+        print(f"Something happened: {err}")
 
-#aList = aList+[{'Date':exampleData[0][0], 'Fruit':exampleData[0][1], 'Value':exampleData[0][2]}]
-#jsonStr = json.dumps(aList)
-#print(jsonStr)
+    data_dict = {
+        "dates": [row[0] for row in data],
+        "fruits": [row[1] for row in data],
+        "numbers": [row[2] for row in data],
+    }
 
-i=0
-for i in range(5):
-    aList = aList+[{'Date':exampleData[i][0], 'Fruit':exampleData[i][1], 'Value':exampleData[i][2]}]
-jsonStr = json.dumps(aList)
-print(jsonStr)
+    try:
+        write_json("example.json", data_dict)
+    except Exception as err:
+        print(f"Something happened: {err}")
